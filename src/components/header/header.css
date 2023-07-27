@@ -1,0 +1,106 @@
+header
+{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+.header_content
+{
+    text-align: left;
+}
+h1
+{
+font-size: 3rem;
+text-align: center;
+ background: linear-gradient(to right,white,red);
+ text-align: center;
+ background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ 
+}
+.intro
+{
+    margin-right: 5rem;
+}
+/*   -------CTA----------*/
+
+.ca
+{
+    margin-top: -8.5rem;
+    margin-left: 15rem;
+    display: flex;
+    gap: 30px;
+
+}
+    
+
+.header_social
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.8rem;
+    position:absolute;
+    left: 30px;;
+    bottom: 3rem;
+    content: '';
+    width: 1px;
+    height: 20rem;
+}
+
+
+.headericon{
+    color:lightcoral;
+    size: 50;
+}
+/*-------------- image me----------------*/
+
+   /*background:var(--color-black);
+   width: 22rem;
+   height: 2rem;
+   position: absolute;
+   left:50%;
+   transform: translateX(-50%);
+   margin-top: 4rem;
+   border-radius:12rem 12rem 0,0;
+
+
+/*------------mediam  medium devices----------*/
+.me
+{
+    border-radius: 15px 50px 30px;
+    border:2px solid ;
+    border-color:lightcoral ;
+    padding: 20px;
+    width: 200px;
+    height:150px;
+    overflow: hidden;
+
+    height: 25rem;
+    width: 22rem;
+    margin-left: 15%;
+    margin-top:3%;
+
+}
+@media screen and (max-width:1024px){
+header{
+        height:68vh;
+    }
+   
+
+}
+/*------------small medium devices----------*/
+@media screen and (max-width:600px)
+{
+    .header
+    {
+        height:100vh;
+    }
+    .header_social.sroll_down
+    {
+display: none;
+    }
+}
+    
+
